@@ -26,6 +26,19 @@
 3. Margin of data, perceptron
 
 
+### Bayes Theorem
+
+Posterior ~ likelihood * Prior
+P(A|B) ~ P(B|A) P(A)
+
+Hypothesis - the model we have chose. we assuume we have a linear model 
+Bayesian Learning - Posterior probability P(h|D) = P(D|h)*P(h)/P(D)       [D = Dataset, h=hypothesis]
+
+#### Choosing Hypothesis
+hMAP (Maximum a Posterori)
+MLE = Max likelihood estimation
+
+
 
 
 
