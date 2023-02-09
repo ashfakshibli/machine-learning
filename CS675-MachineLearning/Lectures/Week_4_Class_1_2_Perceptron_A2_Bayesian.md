@@ -1,3 +1,4 @@
+## Class 2:
 ### Logistic Regression
 
 #### Linear separability
@@ -37,6 +38,45 @@ Bayesian Learning - Posterior probability P(h|D) = P(D|h)*P(h)/P(D)       [D = D
 #### Choosing Hypothesis
 hMAP (Maximum a Posterori)
 MLE = Max likelihood estimation
+
+
+
+## Class 2:
+#### Bayes Theorem
+- P(A|B) = P(B|A)P(A)/P(B) See the picture for details in slides
+- Posterior portional to likelihood * Prior 
+- P(B) == P(D) some information about data - constant
+- argmax - find and h which makes the value of P max - hMAP are the w values
+- If we drop hypothesis we find likelihood and maximize it.
+
+Example 1: Bernouli Trials
+
+- Faulty lighbulbs
+- Use argmax to get best Probability
+- use symbolab and set zero and get the solution.
+- P<sub>best</sub> = a/(a+b)
+
+#### MAP with logistic regression
+- to minimize after log minus term to make it small. Regularization
+- Smoother
+- differentiate, zero and gradient decent
+- 1/sigma<sup>2</sup> regularizer
+- sigma is the hyperparameter
+- choose sigma because we assume hypothesis space gaussian/normal distribution.
+
+#### Summary: Learning as Loss minimization
+- Setup
+    - Examples of x, unkown D
+    -  Hidden oracle f label
+    - find hypothesis
+- The ideal situation
+    - function L that penalizes bad hypothesis
+    -  pick a funtion that minmizes. empirical loss.
+    - for regularizer we have seen in last section.
+    - Learning with linear classsifier
+    - quuadratic because 1 unknown.
+    - Theoritical explanation needed in qual.
+
 
 
 
