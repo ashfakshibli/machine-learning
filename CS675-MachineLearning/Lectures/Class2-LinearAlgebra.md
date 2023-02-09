@@ -22,3 +22,9 @@
 #### Matrix - Vector product
     - y^T = x^TA
 #### Matrix- Matrix Product
+#### norms
+    - L1 norm
+    - L2 norm = Euclidean norm
+    - Max norm
+    - Lp norm
+    - Find closest point 
